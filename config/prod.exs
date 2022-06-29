@@ -1,5 +1,13 @@
 import Config
 
+config :my_app, MyApp.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "123",
+  database: "blockscout",
+  hostname: "postgres",
+  pool_size: 10
+
 # Do not print debug messages in production
 
 config :logger, :console, level: :info
