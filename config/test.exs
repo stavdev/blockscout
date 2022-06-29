@@ -1,12 +1,5 @@
 import Config
 
-config :my_app, MyApp.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "123",
-  database: "blockscout",
-  hostname: "postgres",
-  pool_size: 10
 
 # Print only warnings and errors during test
 
